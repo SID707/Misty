@@ -110,25 +110,3 @@ ul li.checked{
 ul li.checked::before{
     background-image: url(checked.jpg);
 }
-
-@media (max-width:992px)
-{
-    .container > div 
-    {
-        margin: 0 1rem;
-    }
-}
-
-@media (max-width:767px)
-{
-    .container
-    {
-        flex-wrap: wrap;
-    }
-
-    .container > div
-    {
-        margin: 1rem auto;
-        max-width: 150px;
-    }
-}
